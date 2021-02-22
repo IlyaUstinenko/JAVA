@@ -27,4 +27,51 @@ public class Bus {
     public Bus() {
     }
 
+    public int getBusNumber() {
+        return busNumber;
+    }
+
+    public void setBusNumber(int busNumber) {
+        this.busNumber = busNumber;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public int getRouteNumber() {
+        return routeNumber;
+    }
+
+    public void setRouteNumber(int routeNumber) {
+        this.routeNumber = routeNumber;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public int getYearOfuse() {
+        return yearOfuse;
+    }
+
+    public void setYearOfuse(int yearOfuse) {
+        this.yearOfuse = yearOfuse;
+    }
+
+    public int getMileage() {
+        return mileage;
+    }
+
+    public void setMileage(int mileage) {
+        this.mileage = mileage;
+    }
 }
