@@ -1,3 +1,4 @@
+import by.gsu.pms.Converter;
 import by.gsu.pms.Employee;
 public class Runner {
     public static void main (String[] args){
@@ -52,5 +53,16 @@ public class Runner {
         }
 
         System.out.println("Name = " + employeMaxTotal.getAccount());
+
+        Converter converter = new Converter();
+        for (Employee value : employees ){
+            if(value != null){
+                System.out.println(converter.convert(value.getTotal(), 10000, 3));
+            }
+        }
+
+
+
+
     }
 }
