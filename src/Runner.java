@@ -16,5 +16,6 @@ public class Runner {
                 new Bus(1142,"Voitenkov",34,"Volvo",1993,310000),
                 new Bus(2196,"Zvrkov",16,"ГАЗ",1900,425000)
         };
+
     }
 }
