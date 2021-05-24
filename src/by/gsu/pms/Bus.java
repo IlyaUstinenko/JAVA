@@ -74,4 +74,16 @@ public class Bus {
     public void setMileage(int mileage) {
         this.mileage = mileage;
     }
+
+    @Override
+    public String toString() {
+        return "Bus{" +
+                "busNumber=" + busNumber +
+                ", fullName='" + fullName + '\'' +
+                ", routeNumber=" + routeNumber +
+                ", brand='" + brand + '\'' +
+                ", yearOfuse=" + yearOfuse +
+                ", mileage=" + mileage +
+                '}';
+    }
 }

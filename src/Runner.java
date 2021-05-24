@@ -1,5 +1,6 @@
 import by.gsu.pms.Bus;
 
+
 public class Runner {
     public static void main(String[] args) {
 
@@ -17,5 +18,11 @@ public class Runner {
                 new Bus(2196,"Zvrkov",16,"ГАЗ",1900,425000)
         };
 
+        for (Bus value : buses) {
+            if (value != null) {
+                System.out.println(value.toString());
+            }
+
+        }
     }
 }
