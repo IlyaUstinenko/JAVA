@@ -86,4 +86,25 @@ public class Bus {
                 ", mileage=" + mileage +
                 '}';
     }
+
+    public void showRouteNumber(int route) {
+
+        if(routeNumber == route){
+            System.out.println(toString());
+        }
+    }
+
+    public void showMileage (int limitMileage){
+        if(mileage > limitMileage){
+            System.out.println(toString());
+        }
+    }
+
+    public void showYearOfUse(int limitYear){
+        if(yearOfuse > limitYear){
+            System.out.println(toString());
+        }
+    }
+
+
 }

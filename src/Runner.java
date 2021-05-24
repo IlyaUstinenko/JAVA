@@ -24,5 +24,23 @@ public class Runner {
             }
 
         }
+        System.out.println("***************************************************************");
+        for (Bus value : buses) {
+            if (value != null) {
+                value.showRouteNumber(20);
+            }
+        }
+        System.out.println("***************************************************************");
+        for(Bus value : buses){
+            if (value != null){
+                value.showMileage(300000);
+            }
+        }
+        System.out.println("***************************************************************");
+        for(Bus value : buses){
+            if (value != null){
+                value.showYearOfUse(2000);
+            }
+        }
     }
 }
